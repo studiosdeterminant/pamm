@@ -1,0 +1,46 @@
+body {
+   background: #777777;
+}
+section {
+	width: 640px;
+	height: 480px;
+	position: relative;
+	border: 15px gray ridge;
+	background: #ff8439; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff8439 0%, #352700 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8439), color-stop(100%,#352700)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff8439 0%,#352700 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ff8439 0%,#352700 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ff8439 0%,#352700 100%); /* IE10+ */
+	background: linear-gradient(top,  #ff8439 0%,#352700 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8439', endColorstr='#352700',GradientType=0 ); /* IE6-9 */
+
+	box-shadow: 10px 10px 5px #888888;
+}
+#pammlogo{
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+#creditstable{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 120px;
+	top: 20px;
+}
+#credits{
+	position: relative;
+	color: #ffffff;
+	font: normal 18px tahoma,sans-serif;
+	position: relative;
+	top: 80px;
+}
+#pamm3dlogo{
+	background: url('../images/PAMM-small.jpg') 0 0 no-repeat;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 535px;
+	top: 375px;
+}

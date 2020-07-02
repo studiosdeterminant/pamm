@@ -1,0 +1,182 @@
+body {
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0d1440), to(#ffffff));
+   background: -webkit-linear-gradient(top, #0d1440, #ffffff);
+   background: -moz-linear-gradient(top, #0d1440, #ffffff);
+   background: -ms-linear-gradient(top, #0d1440, #ffffff);
+   background: -o-linear-gradient(top, #0d1440, #ffffff);
+}
+#mainContent {
+	width: 640px;
+	height: 480px;
+	margin: 30px auto 0;
+	position: relative;
+	background: #eeeeee; /* Old browsers */
+	box-shadow: 5px 5px 2px #888888;
+	border-radius:20px;
+}
+#muses{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	color: #0d1440;
+	font: bold 24px arial,sans-serif;
+}
+#pammimage {
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 55px;
+}
+#logintable {
+	position: relative;
+	top: 30px;
+	left:400px;
+	border: none;
+}
+#pammtext{
+	position: relative;
+	left: 75px;
+	color: #000000;
+	font: bold 24px arial,sans-serif;
+	  -webkit-filter: blur(1px);
+	  -moz-filter: blur(1px);
+	  -o-filter: blur(1px);
+	  -ms-filter: blur(1px);
+	  filter: blur(1px);
+}
+#useremail{
+	position: relative;
+	left: 50px;
+	color: #000000;
+	font: normal 18px arial,sans-serif;
+}
+#email{
+	position: absolute;
+	left: 45px;
+	top: 65px;
+	color: #000000;
+	font: bold 12px arial,sans-serif;
+	display: none;
+}
+#interest{
+	position: relative;
+	left: 2px;
+	color: #000000;
+	font: bold 11px arial,sans-serif;
+}
+#aesinterest{
+	position: relative;
+	left: 45px;
+	color: #000000;
+	font: bold 12px arial,sans-serif;
+}
+
+#instruction{
+	background: #0d1440;
+	padding-top: 10px;
+	padding-left: 45px;
+	color: #e6eafa;
+	font: bold 16px arial,sans-serif;
+	width: 140px;
+	height: 30px;
+	border-radius:5px;
+	cursor: pointer;
+	position: relative;
+	top: 202px;
+	left: 200px;
+	margin: 0 auto;
+}
+
+#inscontent{
+	color: #000000;
+	font: normal 12px arial,sans-serif;
+	height: 350px;
+	width: 200px;
+	overflow-y:scroll;
+	background-color: #e6eafa;
+	padding: 10px 10px 10px 10px;
+	border-radius:5px;
+	text-align: justify;
+}
+
+#submit{
+	position: relative;
+	color: #ffffff;
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+	left: 470px;
+	top: 40px;
+	cursor: pointer;
+	border-top: 1px solid #08064d;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0d1440), to(#ffffff));
+   background: -webkit-linear-gradient(top, #0d1440, #ffffff);
+   background: -moz-linear-gradient(top, #0d1440, #ffffff);
+   background: -ms-linear-gradient(top, #0d1440, #ffffff);
+   background: -o-linear-gradient(top, #0d1440, #ffffff);
+   padding: 6px 15px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 12px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+#submit:hover {
+   border-top-color: #090836;
+   background: #090836;
+   color: #ffffff;
+}
+#submit:active {
+   border-top-color: #bfdef2;
+   background: #bfdef2;
+}
+#recaptcha_widget{
+	position: relative;
+	top:60px;
+	left:420px;
+	width: 200px;
+}
+
+#recaptcha_image img { width: 200px; }
+
+#recaptchaimage {
+	height: 100px;
+	position: relative;
+	left: 480px;
+	top: 100px;
+	width: 200px;
+}
+
+#recaptcha_response_field {
+	position: absolute;
+	top : 80px;
+	left: 15px;
+}
+
+#refresh {
+	position: absolute;
+	top: 57px;
+	left: 185px;
+}
+
+#audiorefresh {
+	position: absolute;
+	top: 75px;
+	left: 185px;
+}
+
+#captchahelp{
+	position: absolute;
+	top: 90px;
+	left: 185px;
+}

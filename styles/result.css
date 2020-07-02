@@ -1,0 +1,253 @@
+			body {
+				background-color: #111111;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#credits {
+				text-align:center;
+				color: #111111;
+				z-index	: 30;
+				width: 100%;
+				position: fixed;
+				bottom: 2px;
+				padding: 5px;
+				background-color: #000000;
+			}
+			#creditbutton{
+				position: relative;
+				color: #ffffff;
+				border-style: solid;
+				border-color: #000000;
+				font-weight: bold;
+				width: 100px;
+				height: 20px;
+				font:bold 14px Arial;
+				background: none;
+				z-index: 30;
+				cursor: pointer;
+			}
+			#helpcontainer {
+				position: absolute;
+				top: 20px;
+				right: 10px;
+				height: 500px;
+				width: 270px;
+				z-index: 2;
+			}
+			#whatsthis {
+				height: 100%;
+				width: 100%;
+				position: relative;
+				z-index: 2;
+			}
+			#whatsthis .ui-accordion-content {
+				width: 100%;
+				background-color: #f3f3f3;
+				color: #000;
+				font-size: 10pt;
+				line-height: 16pt;
+				box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
+							inset 0px -1px 0px 0px rgba(0, 0, 0, .4);
+				padding:5px;
+				opacity: 0.8;
+			}
+			
+			#whatsthis .ui-accordion-header {   
+				margin: 0;
+				padding-top:2px;
+				font-family: arial;
+				font-size: 12pt;
+				text-indent: 10px;
+				height: 30px;
+				display: block;
+				cursor: pointer;
+				text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+				border-right: 1px solid rgba(0, 0, 0, .2);
+				border-left: 1px solid rgba(0, 0, 0, .2);
+				border-bottom: 1px solid rgba(0, 0, 0, .2);
+				border-top: 1px solid rgba(250, 250, 250, .2);
+				background-color: #b3bec4;
+				background-image: -moz-linear-gradient(top,  #b3bec4 0%, #95a0a4 100%);
+				background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3bec4), color-stop(100%,#95a0a4));
+				background-image: -webkit-linear-gradient(top,  #b3bec4 0%,#95a0a4 100%);
+				background-image: -o-linear-gradient(top,  #b3bec4 0%,#95a0a4 100%);
+				background-image: -ms-linear-gradient(top,  #b3bec4 0%,#95a0a4 100%);
+				background-image: linear-gradient(to bottom,  #b3bec4 0%,#95a0a4 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3bec4', endColorstr='#95a0a4',GradientType=0 );
+			}
+
+			#whatsthis .ui-accordion-content > * {  
+				margin: 0;  
+				padding: 20px;  
+			}
+			#whatsthis .ui-accordion-content a {  
+				color: #000;
+			}
+			
+			#usingdirection{
+				position: fixed;
+				bottom: 40px;
+				width: 100%;
+				height: 40px;
+				z-index: 29;
+				background: #ffffff;
+				font-family: arial;
+				font-size: 12pt;
+				font-weight: bold;
+				text-align: center;
+				padding-top: 15px;
+				opacity:0.5;
+				margin: 0 auto;
+			}
+
+#dialog{
+	z-index: 200;
+	position: absolute;
+	top: 40px;
+}
+
+.myClose {
+    float:left;
+	position: relative;
+	left: 2px;
+	top: 15px;
+    background:url('../images/close.png') no-repeat left top;
+    width:25px;
+    height:25px;
+    padding:0;
+    margin:0;
+    text-indent:-999px;
+	z-index: 40;
+}
+
+#menuforPAMM {
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+  z-index: 40;
+  position: absolute;
+  top: 160px;
+  height: 250px;
+}
+
+#menuforPAMM ul {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#menuforPAMM li {
+  font:normal 14px Arial;
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  height: 20%;
+  width: 100%;
+}
+#menuforPAMM a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  font-weight: normal;
+  text-align: right;
+  text-decoration: none;
+  padding-right: 10px;
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+}
+#menuforPAMM a:hover {
+  background: #777777;
+  color: #fff;
+}
+
+#interactPAMM{
+  font:normal 18px Arial;
+  padding-top: 7px;
+  height: 35px;
+  width: 202px;
+  text-align: center;
+  position: absolute;
+  top: 120px;
+  background: #555;
+  color: #ffffff;
+}
+
+#PAMMlogotext{
+  width: 300px;
+  height: 84px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 35;
+  background: url('../images/PAMM.png') no-repeat 0 0;
+ }
+ 
+ #zoomin{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 33%;
+  top: 20px;
+  z-index: 35;
+  padding: 5px;
+  color: #111111;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  font:bold 18px Arial;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+ }
+ 
+  #zoomout{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 30%;
+  top: 20px;
+  z-index: 35;
+  padding: 5px;
+  color: #111111;
+  background: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  font:bold 18px Arial;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+ }
+ 
+ #zoomin:hover{
+  color: #ffffff;
+  background: #111111;
+  -moz-box-shadow: inset 0 0 10px #ffffff;
+  -webkit-box-shadow: inset 0 0 10px #ffffff;
+  box-shadow: inset 0 0 10px #ffffff;
+ }
+ 
+ #zoomout:hover{
+  color: #ffffff;
+  background: #111111;
+  -moz-box-shadow: inset 0 0 10px #ffffff;
+  -webkit-box-shadow: inset 0 0 10px #ffffff;
+  box-shadow: inset 0 0 10px #ffffff;
+ }
+ 
+ #museopted {
+  background: #333;
+  color: #ffffff;
+  width: 198px;
+  z-index: 40;
+  position: absolute;
+  top: 432px;
+  height: 60px;
+  font:normal 12px Arial;
+  padding-top:10px;
+  padding-left:4px;
+}

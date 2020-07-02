@@ -1,0 +1,113 @@
+body {
+	background: #d1edd8 url('../images/back.png') 0 0 no-repeat;
+	background-position: right 50px;
+}
+section {
+	width: 640px;
+	height: 480px;
+	margin: 100px auto 0;
+	position: relative;
+	border: none;
+	background-color:#ffffff;
+	box-shadow: 10px 10px 5px #888888;
+}
+#muses{
+	position: relative;
+	top: 10px;
+	left: 10px;
+	color: #000000;
+	font: bold 22px Verdana,sans-serif;
+}
+#pammimage {
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: 55px;
+}
+#logintable {
+	position: relative;
+	top: 30px;
+	left:400px;
+	border: none;
+	background-color:#ffffff;
+}
+#pammtext{
+	position: relative;
+	left: 75px;
+	color: #000000;
+	font: bold 24px arial,sans-serif;
+}
+#useremail{
+	position: relative;
+	left: 45px;
+	color: #000000;
+	font: normal 18px arial,sans-serif;
+}
+#email{
+	position: absolute;
+	left: 45px;
+	top: 65px;
+	color: #000000;
+	font: bold 12px arial,sans-serif;
+}
+#interest{
+	position: relative;
+	left: 7px;
+	top: 35px;
+	color: #000000;
+	font: bold 15px arial,sans-serif;
+}
+#aesinterest{
+	position: absolute;
+	left: 45px;
+	top: 125px;
+	color: #000000;
+	font: bold 12px arial,sans-serif;
+}
+#submit{
+	position: relative;
+	color: #000000;
+	background: none;
+	left: 530px;
+	top: 155px;
+	font: bold 18px arial,sans-serif;
+	font-weight: bold;
+}
+#recaptcha_widget{
+	position: relative;
+	top:60px;
+	left:420px;
+}
+
+#recaptcha_image img { width: 200px; }
+
+#recaptchaimage {
+	height: 100px;
+	position: relative;
+	left: 480px;
+	top: 100px;
+}
+
+#recaptcha_response_field {
+	position: absolute;
+	top : 80px;
+	left: 15px;
+}
+
+#refresh {
+	position: absolute;
+	top: 54px;
+	left: 185px;
+}
+
+#audiorefresh {
+	position: absolute;
+	top: 72px;
+	left: 185px;
+}
+
+#captchahelp{
+	position: absolute;
+	top: 87px;
+	left: 185px;
+}
