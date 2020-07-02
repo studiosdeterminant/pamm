@@ -6,3 +6,5 @@ This codebase is based on the concept of Kaz Maslanka whose paper has been refer
 If you want more details, please check the following links:
 http://polyamm.weebly.com
 https://www.sdvisualarts.net/sdvan_new/pdf/DNALessonPAMM.pdf
+
+You can read more about Kaz Maslanka here - http://www.kazmaslanka.com/
